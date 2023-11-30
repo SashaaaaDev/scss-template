@@ -1,0 +1,23 @@
+@use "../settings" as *;
+.footer {
+  bottom: 0;
+  background-color: $bkg-bl;
+  height: 150px;
+  display: flex;
+  padding: 50px 0 0 0;
+  @media (max-width:440px) {
+    height: 100px;
+    padding: 25px 0 0 0;
+  }
+  &-content__title,&-content__privacy{
+    display: flex;
+    color: white;
+    margin-bottom: 15px;
+    @media (max-width:440px) {
+      margin-bottom: 10px;
+    }
+  }
+  &-content__privacy {
+    font-weight: 500;
+  }
+}

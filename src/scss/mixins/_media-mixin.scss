@@ -1,0 +1,4 @@
+@mixin MixinWdth{
+  width: min(100% - 40px, 1110px);
+  margin-inline: auto;
+}
